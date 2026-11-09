@@ -2,7 +2,7 @@
 
 An interactive finance-learning app with nine lessons, quizzes, a glossary, a notebook, and calculation labs. React and TypeScript render the learning interface; IndexedDB keeps progress and notes in the browser.
 
-[Engineering notes](ENGINEERING.md) explain the mechanisms and tradeoffs. How do two tabs preserve independent edits while a reset prevents old drafts from reappearing?
+[Engineering notes](ENGINEERING.md) trace calculation inputs, cross-tab edits, and reset recovery.
 
 [Product portfolio](https://github.com/hxssank/recruiter-portfolio)
 
@@ -54,7 +54,7 @@ Open the local URL printed by Vite. Progress belongs to the current browser orig
 
 ## Validation
 
-All 29 existing tests, TypeScript checking, and the Vite production build passed on November 9, 2026 against this source snapshot using the existing local dependency installation. The tests cover calculations, IndexedDB updates, migrations, draft recovery, and reset behavior. A clean dependency installation and browser walkthrough were not part of this check.
+All 29 existing tests, TypeScript checking, and the Vite production build passed on November 9, 2026 after a clean `npm ci` with Node 24.22.0. The tests cover calculations, IndexedDB updates, migrations, draft recovery, and reset behavior. A browser walkthrough was not part of this check.
 
 ## Scope
 
