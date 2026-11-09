@@ -2,6 +2,8 @@
 
 An interactive finance-learning app with nine lessons, quizzes, a glossary, a notebook, and calculation labs. React and TypeScript render the learning interface; IndexedDB keeps progress and notes in the browser.
 
+[Engineering notes](ENGINEERING.md) explain the mechanisms and tradeoffs. How do two tabs preserve independent edits while a reset prevents old drafts from reappearing?
+
 [Product portfolio](https://github.com/hxssank/recruiter-portfolio)
 
 ![Mazal Academy lesson and interactive inflation lab](assets/screenshot.jpg)
